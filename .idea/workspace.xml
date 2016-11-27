@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="461e3d0f-0d5a-4036-b08f-0cbaca33b5d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salt/gitlab/gitlab-ce.sls" afterPath="$PROJECT_DIR$/salt/gitlab/gitlab-ce.sls" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="salt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,13 +17,6 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -133,29 +125,6 @@
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/salt/system/file/incre_swap.sh" />
-        <option value="$PROJECT_DIR$/pillar/gitlab/ecom-1.sls" />
-        <option value="$PROJECT_DIR$/pillar/gitlab/basic.sls" />
-        <option value="$PROJECT_DIR$/salt/gitlab/init.sls" />
-        <option value="$PROJECT_DIR$/salt/gitlab/ruby.sls" />
-        <option value="$PROJECT_DIR$/pillar/pkgs_list.sls" />
-        <option value="$PROJECT_DIR$/pillar/global_systemcfg.sls" />
-        <option value="$PROJECT_DIR$/salt/ruby/init.sls" />
-        <option value="$PROJECT_DIR$/salt/gitlab/gitlab.sls" />
-        <option value="$PROJECT_DIR$/salt/ecom.sls" />
-        <option value="$PROJECT_DIR$/pillar/top.sls" />
-        <option value="$PROJECT_DIR$/pillar/global_pkgs.sls" />
-        <option value="$PROJECT_DIR$/pillar/gitlab/gitlab.sls" />
-        <option value="$PROJECT_DIR$/salt/gitlab/gitlab-ce.sls" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -288,18 +257,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js-jscs-package" value="/usr/local/lib/node_modules/jscs" />
-    <property name="FullScreen" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/salt/ruby" />
-      <recent name="$PROJECT_DIR$/pillar" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
