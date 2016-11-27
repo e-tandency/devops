@@ -13,7 +13,6 @@ pkgs:
   - libreadline-dev
   - libncurses5-dev
   - libffi-dev
-  - curl
   - openssh-server
   - redis-server
   - checkinstall
@@ -21,8 +20,7 @@ pkgs:
   - libxslt-dev
   - libcurl4-openssl-dev
   - libicu-dev
-  - logrotate
-  - git
+#TODO: check the postfix text static install mode
   - postfix
   - ca-certificates
 
