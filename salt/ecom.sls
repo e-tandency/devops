@@ -1,4 +1,4 @@
 include:
+  - ruby
   - gitlab
-  - gitlab.ruby
-  
+  - gitlab.gitlab-ce

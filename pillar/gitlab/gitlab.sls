@@ -1,5 +1,3 @@
-swapspace: 4096
-
 users:
   gitlab:
     home: /home/gitlab
@@ -26,4 +24,6 @@ pkgs:
   - logrotate
   - git
   - postfix
+  - ca-certificates
 
+gitlab_install_shell: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
