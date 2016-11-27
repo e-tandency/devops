@@ -7,6 +7,7 @@ gitlab-repo:
 gitlab-ce-install:
   pkg.installed:
     - name: gitlab-ce
+    - version: 8.14.0-ce.0
     - require:
       - cmd: gitlab-repo
       - pkg: ruby
