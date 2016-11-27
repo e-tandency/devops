@@ -31,7 +31,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basic.sls" pinned="false" current-in-tab="false">
+      <file leaf-file-name="basic.sls" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pillar/gitlab/basic.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -61,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.sls" pinned="false" current-in-tab="true">
+      <file leaf-file-name="init.sls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/salt/gitlab/init.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -104,8 +104,8 @@
       <file leaf-file-name="top.sls" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pillar/top.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -736,14 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/gitlab/basic.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/ecom.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -760,14 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pillar/top.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/salt/gitlab/ruby.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -780,6 +764,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/top.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pillar/gitlab/basic.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
