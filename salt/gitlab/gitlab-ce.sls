@@ -2,10 +2,11 @@
 gitlab-repo:
   cmd.run:
     - name: "curl -sS {{ gitlab_install_shell }}| sudo bash"
+    - cwd: /tmp
 
 gitlab-ce-install:
   pkg.installed:
     - name: gitlab-ce
-      - required:
-        - cmd.run: gitlab-pkg-version
-        - pkg.installed: ruby
+    - require:
+      - cmd: gitlab-repo
+      - pkg: ruby
