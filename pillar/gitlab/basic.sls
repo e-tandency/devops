@@ -1,4 +1,4 @@
-swapness: 4096
+swapspace: 4096
 
 users:
   gitlab:
@@ -26,3 +26,4 @@ pkgs:
   - logrotate
   - git
   - postfix
+
