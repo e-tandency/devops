@@ -1,0 +1,14 @@
+.ipynb*
+.idea/
+
+dist
+build
+eggs
+parts
+bin
+pip-log.txt
+
+.coverage
+.tox
+
+tmp

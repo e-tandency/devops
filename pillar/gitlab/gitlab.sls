@@ -1,5 +1,3 @@
-swapness: 4096
-
 users:
   gitlab:
     home: /home/gitlab
@@ -15,7 +13,6 @@ pkgs:
   - libreadline-dev
   - libncurses5-dev
   - libffi-dev
-  - curl
   - openssh-server
   - redis-server
   - checkinstall
@@ -23,6 +20,8 @@ pkgs:
   - libxslt-dev
   - libcurl4-openssl-dev
   - libicu-dev
-  - logrotate
-  - git
+#TODO: check the postfix text static install mode
   - postfix
+  - ca-certificates
+
+gitlab_install_shell: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh

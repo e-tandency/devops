@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # size of swapfile in megabytes
-{% set swapsize=salt['pillar.get']('swapness', 4096) %}
+{% set swapsize=salt['pillar.get']('swapspace', 4096) %}
 
 # does the swap file already exist?
 grep -q "swapfile" /etc/fstab

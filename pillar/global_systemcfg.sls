@@ -1,0 +1,1 @@
+swapspace: 4096
