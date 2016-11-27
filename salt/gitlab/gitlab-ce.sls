@@ -6,6 +6,6 @@ gitlab-repo:
 gitlab-ce-install:
   pkg.installed:
     - name: gitlab-ce
-#    - required:
-#      - cmd.run: gitlab-pkg-version
-#      - pkg.installed: ruby
+      - required:
+        - cmd.run: gitlab-pkg-version
+        - pkg.installed: ruby
