@@ -8,6 +8,5 @@ gitlab-git:
     - user: {{ salt['pillar.get']('users') }}
     - target: {{ salt['pillar.get']('users:gitlab:target') }}
     - require:
-      - pkg: git
       - user: gitlab
 
