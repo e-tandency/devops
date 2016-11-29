@@ -1,7 +1,10 @@
 users:
-  git:
-    home: /home/git
-    shell: /sbin/nologin
+  gitlab:
+    home: /home/gitlab
+    shell: /bin/bash
+    target: /home/gitlab/gitlab
+
+gitlab_ce_v: '8.14.0-ce.0'
 
 pkgs:
   - build-essential
