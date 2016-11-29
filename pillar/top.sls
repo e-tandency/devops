@@ -1,6 +1,6 @@
 {{env}}:
   '*':
-    - global_pkgs
-    - global_systemcfg
+    - common_pkgs
+    - common_systemcfg
   'ecom-1':
     - gitlab.gitlab

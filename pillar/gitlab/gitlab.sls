@@ -1,6 +1,6 @@
 users:
-  gitlab:
-    home: /home/gitlab
+  git:
+    home: /home/git
     shell: /sbin/nologin
 
 pkgs:
@@ -23,5 +23,3 @@ pkgs:
 #TODO: check the postfix text static install mode
   - postfix
   - ca-certificates
-
-gitlab_install_shell: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
