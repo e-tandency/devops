@@ -4,9 +4,9 @@ include:
 gitlab-git:
   git.latest:
     - name: https://gitlab.com/gitlab-org/gitlab-ce.git
-    - rev: {{ salt['pillar.get']('gitlab_ce_v') }}
-    - user: {{ salt['pillar.get']('users') }}
-    - target: {{ salt['pillar.get']('users:gitlab:target') }}
+    - rev: '8.14.0-ce.0'
+    - user: gitlab
+    - target: /home/gitlab/gitlab
     - require:
       - user: gitlab
 
