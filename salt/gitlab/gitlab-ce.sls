@@ -1,12 +1,12 @@
-include:
-  - gitlab
+{% set gitlab_install_shell = salt['pillar.get']('gitlab_install_shell') %}
+gitlab-repo:
+  cmd.run:
+    - name: "curl -sS {{ gitlab_install_shell }}| sudo bash"
+    - cwd: /tmp
 
-gitlab-git:
-  git.latest:
-    - name: https://gitlab.com/gitlab-org/gitlab-ce.git
-    - rev: '6-5-stable'
-    - user: gitlab
-    - target: /home/gitlab/gitlab
+gitlab-ce-install:
+  pkg.installed:
+    - name: gitlab-ce
     - require:
-      - user: gitlab
-
+      - cmd: gitlab-repo
+      - pkg: ruby
