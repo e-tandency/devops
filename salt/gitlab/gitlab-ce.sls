@@ -10,3 +10,9 @@ gitlab-ce-install:
     - require:
       - cmd: gitlab-repo
       - pkg: ruby
+
+gitlab-ce-config:
+  cmd.run:
+    - name: gitlab-ctl reconfigure
+    - require:
+      - pkg: 'gitlab-ce-install'

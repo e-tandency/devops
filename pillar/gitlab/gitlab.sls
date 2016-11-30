@@ -1,7 +1,5 @@
-users:
-  gitlab:
-    home: /home/gitlab
-    shell: /sbin/nologin
+gitlab_ce_v: '8.14.0-ce.0'
+ruby_version: ruby2.3
 
 pkgs:
   - build-essential
@@ -23,5 +21,3 @@ pkgs:
 #TODO: check the postfix text static install mode
   - postfix
   - ca-certificates
-
-gitlab_install_shell: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
