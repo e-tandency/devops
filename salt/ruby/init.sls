@@ -4,6 +4,6 @@ ruby-ppa-repo:
 
 ruby:
   pkg.installed:
-    - name: {{ salt['pillar.get']('ruby_version', '2.2') }}
+    - name: {{ salt['pillar.get']('ruby_version', 'ruby2.3') }}
     - required:
       - pkgrepo.managed: ruby-ppa-repo
